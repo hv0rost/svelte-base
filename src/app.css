@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	max-width: 1000px;
+	margin: 0 auto;
+	@apply text-base p-4;
+}
